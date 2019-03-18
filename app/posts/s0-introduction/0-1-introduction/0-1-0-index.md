@@ -1,9 +1,10 @@
 ---
 title: Executive Summary
-date: 2019-03-12
+date: 2012-08-20
 layout: post.html
 permalink: /
 ---
+
 
 Having accurate data about schools is key for organizations to provide quality education and promote lifelong learning, listed as UN sustainable development goals 4 (SDG4), ensure equal access to opportunity (SDG10) and eventually, reduce poverty (SDG1). However, this is a challenging task since educational facilities’ records are often inaccurate, incomplete or non-existent. Machine learning is capable of detecting many types of objects in satellite imagery. By leveraging machine learning and high-resolution imagery, we are able to determine school detection at national scale.
 
