@@ -8,8 +8,11 @@ layout: post.html
 
 The machine learning model took individual tile as input and provided output for each in the form of a probability between zero and one. By running the model prediction over the test set (about 2000 tiles) we plotted a ROC curve.  ROC curve gives us an overall model performance and guidance on thresh cutoff. The model was trained on available and 70% confirmed schools from our the cleaned school dataset (Table 1).
 
-<The ROC curve and false positive rate for the school classifier in Colombia.>
-<figure here>
+
+<figure class="align-center">
+	<img src="/assets/graphics/content/results/roc_curves.png" alt="School validation maps" />
+	<figcaption>The ROC curve and false positive rate for the school classifier in Colombia</figcaption>
+</figure>
 
 The ROC curve indicates the area under the curve is upto 0.94 from the test set with the given threshed of 0.44 (Figure 5), and we got a false positive rate of 9%. The ROC curve (Figure 5, A) showed the model we selected was a high-performed model, which only 9% of schools have ring the false alarms by giving schools have various looks and features.
 

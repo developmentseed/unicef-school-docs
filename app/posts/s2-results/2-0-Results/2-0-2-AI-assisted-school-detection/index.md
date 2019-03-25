@@ -9,11 +9,11 @@ The machine learning model generalizability is an active research area , the sch
 
 
 <figure class="align-center">
-	<img src="/assets/graphics/content/methodology/schools_result0.png" alt="School validation maps" />
+	<img src="/assets/graphics/content/results/schools_result0.png" alt="School validation maps" />
 	<figcaption> </figcaption>
 </figure>
 <figure class="align-center">
-	<img src="/assets/graphics/content/methodology/schools_result1.png" alt="School validation maps" />
+	<img src="/assets/graphics/content/results/schools_result1.png" alt="School validation maps" />
 	<figcaption> A few snapshots of newly discovered schools by the machine learning model, and they were validated by the expert mappers</figcaption>
 </figure>
 
