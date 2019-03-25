@@ -1,5 +1,5 @@
 ---
-title: AI assisted school detection: confirmed schools
+title: AI assisted school detection and discussion
 date: 2019-03-12
 layout: post.html
 ---
@@ -13,7 +13,6 @@ Table 2. The stats from our machine learning school detection in Colombia and th
 | Confirmed and added ml_school geolocations | 10,998 |
 | Unrecognized school tiles from the validation|  60,568 |
 | Not schools from the validation | 899 |
-
 
 
 

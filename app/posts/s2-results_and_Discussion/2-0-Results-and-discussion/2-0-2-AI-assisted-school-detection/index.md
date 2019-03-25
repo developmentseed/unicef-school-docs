@@ -1,5 +1,5 @@
 ---
-title: AI assisted school detection: confirmed schools
+title: AI assisted school detection and discussion
 date: 2019-03-12
 layout: post.html
 ---
