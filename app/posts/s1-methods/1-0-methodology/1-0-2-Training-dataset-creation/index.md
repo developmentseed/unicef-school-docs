@@ -10,9 +10,8 @@ Two categories of datasets, ‘school’ and ‘not-school’, were generated as
 
 To enrich the “not-school” category, and allow our machine learning algorithm to detect real schools more accurately, we queried available hospital, farmlands, parks, courthouses and marketplaces from OpenStreetMap and added them to the “not-schools” category. We ended up with  9,092 ‘not-school’ tiles (the following table). Through the machine learning model training iterations, we learned that the model was over-confident in certain areas, and therefore we adjusted the training dataset accordingly. For instance, we randomly included more schools as well as purposely added more regular building tiles that are not schools. See the detailed table for the training dataset for the different sessions.
 
-
 <figure class="align-center">
-	<img src="/assets/graphics/content/methodology/.png" alt="Put unmapped schools on the map with machine learning" />
+	<img src="/assets/graphics/content/methodology/schools_table_1.png" alt="Put unmapped schools on the map with machine learning" />
 	<figcaption> Our AI-assisted workflow for schools detection</figcaption>
 </figure>
 
