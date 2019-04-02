@@ -1,6 +1,6 @@
-<h1 align="center">Doc Seed</h1>
+<h1 align="center">Project Connect</h1>
 
-Doc seed is a quick way to create a documentation site that can run on any webserver.
+Mapping school with deep learning and high-resolution satellite images
 
 ![](docs/graphics/docseed.png)
 
