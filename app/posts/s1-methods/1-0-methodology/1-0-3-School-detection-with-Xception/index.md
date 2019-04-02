@@ -43,7 +43,7 @@ To train a school classifier, or any other image classification, you only need t
 sat_xception train -model=xception -train=train -valid=test
 ```
 
-## School classifier and model performance
+#### School classifier and model performance
 A binary image classification,  the school classifier, was trained with Xception and MobileNetV2 for the purpose of comparison and A-B testing at our model training sessions. We monitored the model training through TensorBoard. TensorBoard allows engineers to understand, debug and optimize machine learning model training that built on top of Tensorflow.
 
 We broke the training sessions into two sessions. The first session was designed to test the feasibility of using Sat-Xception to train a well-performed school classifier in Colombia. The model was over-confident in rural Colombia in the first session, leading into too many false predictions in the area. To overcome the issue, we created a new training dataset that was slightly different from the training dataset in the first session. In the second training session, 2,048 ‘not-school’ buildings were added. In addition, for the “school” category, we only kept rural schools that have very clear school features (Figure 2.). We also randomly selected another 2500 confirmed school tiles to add to the category (Table1.).  

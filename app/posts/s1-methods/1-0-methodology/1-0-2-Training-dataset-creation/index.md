@@ -17,6 +17,6 @@ To enrich the “not-school” category, and allow our machine learning algorith
 
 **Above image tiles downloading was using [Geokit](https://github.com/developmentseed/geokit) however it can be done using [Label Maker](https://github.com/developmentseed/label-maker) too**
 
-## training dataset split
+## Training dataset split
 
 To assess the model performance fairly, our training dataset of two categories, school and not-school tiles, are then split into 70:20:10 ratio as train, validation and test datasets. We randomly selected 70% of tiles to train the model, the remaining 20% was used to validate the model. The training set was seen and used by the model intensively to train the school classifier, and the validation set is occasionally seen and used to fine-tune the classifier. However, the last 10% of test dataset was not seen by the model, and it acts as the golden standard dataset to evaluate the model performance.
