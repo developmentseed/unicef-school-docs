@@ -12,6 +12,8 @@ module.exports = {
 
   sectionsMeta: {
     's0-introduction': 'Introduction',
-    's1-components': 'Components'
+    's1-methods': 'Methodology',
+    's2-Results_and_Discussion': 'Results and Discussion',
+    's3-Conclusion': 'Conclusion'
   }
 };
