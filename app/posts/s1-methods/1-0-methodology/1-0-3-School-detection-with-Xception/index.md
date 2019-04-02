@@ -1,17 +1,17 @@
 ---
-title: Nightlight trends
+title: Sat-Xception and the school classifier
 date: 2018-10-01
 layout: post.html
 ---
 
-## Sat_Xception
+#### Sat_Xception
 
 To quickly train the school classifier, we create a deep learning python package called Sat-Xception. It is a deep learning package that utilizes pre-trained models from ImageNet [10]. It is currently private but will soon be open sourced. The package is designed to quickly install, transfer-learn and fine-tune image classifiers with the built-in pre-trained models, which can be used to train other classifiers rather than the school classifier. Xception [11] and MobileNetV2 [12] were two pre-trained models built-in in the package. They were written by Keras [13], a high-level python package that can allow users to quickly reconstruct neural networks Google's Tensorflow [14] was used as backend.  
 
 Xception is one of current state-of-the-art CNN architectures and pre-trained models on top of ImageNet [15].  It’s a high performing and efficient network compared to other pre-trained networks [16]. MobileNetV2 [17] on the other hand, is a model that is slightly less accurate compared to Xception. However, it's a very light-weight, fast, and easy to tune when limited resources available (appropriate for scenarios with resource vs. accuracy tradeoff). Both Xception and MobileNetV2 have fewer hyper-parameter available to tune compared to other pre-trained models, e.g. VGG and Inception, but both are high-performed models.
 
 
-### Training a school classifier with Sat_Xception
+#### Training a school classifier with Sat_Xception
 
 To install `sat-xception` , transfer-learn and fine tune an image classification model, you need to:
 

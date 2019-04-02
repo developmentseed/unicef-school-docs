@@ -4,7 +4,7 @@ date: 2019-03-12
 layout: post.html
 ---
 
-## image tiles downloading with [Geokit](https://github.com/developmentseed/geokit)
+## Image tiles downloading
 
 Two categories of datasets, ‘school’ and ‘not-school’, were generated as the training dataset for the machine learning model. We randomly sampled half of the school geolocations from the validated “confirmed schools”, and generated 5,904 tiles as “school” training dataset (Table 1). The not-school category is not as trivial. This category can contain forest, grassland or agricultural fields without any buildings, among others. It can also be a building complex or facility that looks very similar to “school” from space, e.g. hospitals, market places, courthouses etc.
 
@@ -14,6 +14,8 @@ To enrich the “not-school” category, and allow our machine learning algorith
 	<img src="/assets/graphics/content/methodology/schools_table_1.png" alt="Put unmapped schools on the map with machine learning" />
 	<figcaption> Table 1. School data cleaning and training dataset creation for machine learning.</figcaption>
 </figure>
+
+**Above image tiles downloading was using [Geokit](https://github.com/developmentseed/geokit) however it can be done using [Label Maker](https://github.com/developmentseed/label-maker) too**
 
 ## training dataset split
 
