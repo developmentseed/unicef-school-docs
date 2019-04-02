@@ -1,17 +1,19 @@
 module.exports = {
   baseurl: 'http://devseed.com/doc-seed',
-  title: 'Doc Seed',
-  description: 'A quick way to create a documentation site',
+  title: 'Project Connect',
+  description: 'Mapping school with deep learning and high-resolution satellite images',
 
   attribution: {
     role: 'Developed for',
-    name: 'Generic Company',
-    logo: 'generic-logo-pos-hor.svg',
-    url: 'https://developmentseed.org'
+    name: 'UNICEF',
+    logo: 'Unicef_logo_blue.png',
+    url: 'https://www.unicef.org/innovation/school-mapping'
   },
 
   sectionsMeta: {
     's0-introduction': 'Introduction',
-    's1-components': 'Components'
+    's1-methods': 'Methodology',
+    's2-Results_and_Discussion': 'Results and Discussion',
+    's3-Conclusion': 'Conclusion'
   }
 };
