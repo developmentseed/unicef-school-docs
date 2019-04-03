@@ -13,7 +13,7 @@ module.exports = {
   sectionsMeta: {
     's0-Introduction': 'Introduction',
     's1-Methodology': 'Methodology',
-    's2-Results_and_Discussion': 'Results and Discussion',
+    's2-Results_and_Discussion': 'Results',
     's3-Conclusion': 'Conclusion'
   }
 };
