@@ -11,9 +11,9 @@ module.exports = {
   },
 
   sectionsMeta: {
-    's0-Introduction': 'Introduction',
-    's1-Methodology': 'Methodology',
-    's2-Results_and_Discussion': 'Results_and_Discussion',
-    's3-Conclusion': 'Conclusion'
+    's0-introduction': 'Introduction',
+    's1-methodology': 'Methodology',
+    's2-results_and_discussion': 'Results_and_Discussion',
+    's3-conclusion': 'Conclusion'
   }
 };
