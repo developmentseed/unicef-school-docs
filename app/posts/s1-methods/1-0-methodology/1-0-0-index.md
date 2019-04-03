@@ -12,10 +12,10 @@ Our workflow of school detection with DG Vivid imagery and machine learning can 
 </figure>
 
 Our AI-assist school detection in Colombia and the East Caribbean islands are:
-- Data cleaning
-- Training data creation
+- School data cleaning
+- Training dataset creation
 - Sat-Xception and the school classifier
-- The model inference with the best performed model over Colombia and the eastern Caribbean islands
-- The expert mapper validate the machine learning prediction
+- The large scale model inference
+- Machine learning prediction validation by DevSeed expert mappers
 
 See the detailed steps under this section.
