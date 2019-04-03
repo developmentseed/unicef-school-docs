@@ -4,13 +4,13 @@ date: 2019-03-12
 layout: post.html
 ---
 
-A high-quality training dataset is essential for the machine learning models to learn the right object features. Our first step is to validate and clean the schools provided by UNICEF. Development Seed’s Data Team, a group of five expert mappers, validated the dataset that was used for training. The goal of the validation exercise is to split the original data into 1) a set of image tiles that contain schools, 2) a set of image tiles that clearly do not contain a school, 3) a set of image tiles that it’s uncertain if it contains a school or not.  The first two sets of clear school tiles and clear non-school tiles were used by the neural network to learn how to distinguish between the two. We use red, blue and green (RGB) spectral bands from DG Vivid to create the training image tiles.
+A high-quality training dataset is essential for the machine learning models to learn the right object features. Our first step is to validate and clean the schools provided by UNICEF. [Development Seed’s Data Team](https://medium.com/devseed/announcing-devseed-data-1a3d8102cb23), a group of five expert mappers, validated the dataset that was used for training. The goal of the validation exercise is to split the original data into 1) a set of image tiles that contain schools, 2) a set of image tiles that clearly do not contain a school, 3) a set of image tiles that it’s uncertain if it contains a school or not.  The first two sets of clear school tiles and clear non-school tiles were used by the neural network to learn how to distinguish between the two. We use red, blue and green (RGB) spectral bands from DG Vivid to create the training image tiles.
 
-A team of expert mappers tagged the school geolocations within the original dataset of 44,665 schools with the attributes of “confirmed”, “unrecognized” and “not-school”. **Confirmed schools** are these observed from the high-resolution satellite imagery and have very clear school features, e.g. building size, shape, and facilities. For instance, below are some of the school features that were used as criteria for schools and that can be used to label the tiles as “confirmed” schools.
+The expert mappers tagged the school geolocations within the original dataset of 44,665 schools with the attributes of “confirmed”, “unrecognized” and “not-school”. **Confirmed schools** are these observed from the high-resolution satellite imagery and have very clear school features, e.g. building size, shape, and facilities. For instance, below are some of the school features that were used as criteria for schools and that can be used to label the tiles as “confirmed” schools.
 
 
 <figure class="align-center">
-	<img src="/assets/graphics/content/methodology/schools_features.png" alt="Confirmed Schools" />
+	<img src="/assets/graphics/content/methodology/school_features.png" alt="Confirmed Schools" />
 	<figcaption> School feature examples that our expert mapper use to clean and validate schools across Colombia.</figcaption>
 </figure>
 

@@ -1,7 +1,7 @@
 module.exports = {
   baseurl: 'http://devseed.com/doc-seed',
   title: 'Project Connect',
-  description: 'Mapping school with deep learning and high-resolution satellite images',
+  description: 'AI-assisted school detection',
 
   attribution: {
     role: 'Developed for',

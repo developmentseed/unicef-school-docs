@@ -17,7 +17,7 @@ To enrich the “not-school” category, and allow our machine learning algorith
 
 
 
-**Above image tiles downloading was using [Geokit](https://github.com/developmentseed/geokit) and a customized python script we created. However it can be done using [Label Maker](https://github.com/developmentseed/label-maker) too**
+**Above image tiles creation training was done using [Geokit](https://github.com/developmentseed/geokit) and a customized tile downloading python script we created. However it can be done directly using [Label Maker](https://github.com/developmentseed/label-maker) too**
 
 #### Training dataset split
 
