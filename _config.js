@@ -1,5 +1,5 @@
 module.exports = {
-  baseurl: 'http://devseed.com/project-connect-docs',
+  baseurl: 'http://devseed.com/unicef-school-docs',
   title: 'Project Connect',
   description: 'AI-assisted school mapping',
 
