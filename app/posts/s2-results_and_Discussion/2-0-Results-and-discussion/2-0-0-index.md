@@ -1,12 +1,12 @@
 ---
-title: Result and Discussion: AI assisted school detection
+title: Result and Discussion
 date: 2019-03-12
 layout: post.html
 ---
 
 Searching for Points of Interest (POIs) (e.g. schools and hospitals) manually is time-consuming, especially at national level. Our approach provided a way where humans are assisted by machine learning to narrow down the search space of the POIs from high-resolution satellite imagery. However, schools can look very different in different regions, for instance, schools in rural and urban areas often don’t have the same characteristics. Furthermore,the looks will vary a lot from country to country. To overcome this challenge, the parameterization of the school classifier can be further explored for optimal classification to specific geolocations.
 
-## Overall machine learning
+#### Overall machine learning
 
 The machine learning model took individual tiles as input and provided an output in the form of a probability between zero and one for each. By running the model prediction over the test set (about 2000 tiles) we plotted a ROC curve.  The ROC curve gives us an overall model performance and guidance on threshold cutoff.
 
