@@ -15,3 +15,8 @@ To run the inference at a country-wide scale on high-resolution imagery, we deve
 - A user manually downloads predictions from RDS after the full inference process is complete.
 
 The prediction from RDS was converted to a shapefile so that our expert mappers can upload a map editor for validation. In the editor, the mappers can overlay the predicted school tiles only and focus their attention on confident predictions, avoiding the tedious task of reviewing the entire area for Colombia and the eastern Caribbean islands.
+
+<figure class="align-center">
+<img src="/assets/graphics/content/methodology/diagram-ml-inference.png" alt="Put unmapped schools on the map with machine learning" />
+<figcaption> chip-n-scale-queue-arranger helps you run machine learning models over satellite imagery at scale. It is a collection of AWS CloudFormation templates deployed by kes, lambda functions, and utility scripts for monitoring and managing the project.</figcaption>
+</figure>
