@@ -22,9 +22,9 @@ jobs:
           paths:
             - node_modules
           key: v1-dependencies-{{ checksum "package.json" }}
-        
+
       # run tests!
-      - run: yarn lint
+      # - run: yarn lint
       # - run: yarn test
 
       - run:
@@ -57,5 +57,3 @@ jobs:
             else
               echo "Skip deploying to Github"
             fi
-
-
