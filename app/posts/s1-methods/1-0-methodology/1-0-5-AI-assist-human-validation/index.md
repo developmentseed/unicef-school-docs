@@ -8,10 +8,5 @@ In the validation process, the expert mapped validate each predicted school tile
 
 <figure class="align-center">
 	<img src="/assets/graphics/content/methodology/m20.gif" alt="Put unmapped schools on the map with machine learning"/>
-	<figcaption> AI-assist human schools detection in Colombia - 1. Blue dots are validated and confirmed as schools by the expert mappers</figcaption>
-</figure>
-
-<figure class="align-center">
-	<img src="/assets/graphics/content/methodology/m19.gif" alt="Put unmapped schools on the map with machine learning"/>
-	<figcaption> AI-assist human schools detection in Colombia - 2. Blue dots are validated and confirmed as schools by the expert mappers</figcaption>
+	<figcaption> AI-assist human schools detection in Colombia. Blue dots are validated and confirmed as schools by the expert mappers</figcaption>
 </figure>
