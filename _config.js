@@ -1,7 +1,7 @@
 module.exports = {
   baseurl: 'http://devseed.com/doc-seed',
   title: 'Project Connect',
-  description: 'AI-assisted school detection',
+  description: 'AI-assisted school mapping',
 
   attribution: {
     role: 'Developed for',
@@ -11,8 +11,8 @@ module.exports = {
   },
 
   sectionsMeta: {
-    's0-introduction': 'Introduction',
-    's1-methods': 'Methodology',
+    's0-Introduction': 'Introduction',
+    's1-Methods': 'Methodology',
     's2-Results_and_Discussion': 'Results and Discussion',
     's3-Conclusion': 'Conclusion'
   }
