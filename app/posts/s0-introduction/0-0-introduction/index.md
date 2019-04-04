@@ -14,8 +14,8 @@ An accurate, comprehensive map of schools - where no school is left behind - is 
 Despite their varied structure, many schools have identifiable overhead signatures that might make possible to detect them with modern deep learning techniques applied to high-resolution satellite imagery. This project presents the results of a Convolution Neural Networks school classifier for high-res satellite imagery. This classifier is based on Xception and MobileNetV2 and fine-tuned with a new cleaned school dataset in Colombia.
 
 <figure class="align-center">
-	<img src="/assets/graphics/content/methodology/school_features.png" alt="Put unmapped schools on the map with machine learning" />
-	<figcaption> The school features are visible to deep learning. From top to bottom, we concluded that schools are normally in bigger size, varied shape compared to surrounding residential houses. Schools have boundary, and the buildings are in unified shape and color.Both urban and rural schools will have different facilities attach to the campus e.g. playground, basketball courts and swimming pool.</figcaption>
+	<img src="/assets/graphics/content/methodology/school_features.png" alt="school features" />
+	<figcaption>The school features are visible to deep learning. From top to bottom, we concluded that schools are normally in bigger size, varied shape compared to surrounding residential houses. Schools have boundary, and the buildings are in unified shape and color.Both urban and rural schools will have different facilities attach to the campus e.g. playground, basketball courts and swimming pool.</figcaption>
 </figure>
 
 A binary school classifier was trained with existing and cleaned schools dataset in Colombia. We then selected the best-performed model with 0.94 area under the ROC curve and 9% of the false positive rate from our nearly 200 training iterations. A large scale model inference, by Development Seed's open sourced tool [chip-n-scale-queue-arranger](https://github.com/developmentseed/chip-n-scale-queue-arranger), across Colombia and the Eastern Caribbean islands was implemented over 52 million [DigitalGlobe Vivid imagery](https://mapsapidocs.digitalglobe.com/docs/imagery-and-basemaps) tiles. DG Vivid is a snapshot of the earth, mosaiced sharpened and color-enhanced. This high-resolution imagery product has a 50cm spatial resolution and global coverage. At this sub-meter spatial resolution imagery, objects like buildings, cars, and trees can be observed clearly from space. DigitalGlobe has supported this research by providing access to its 31cm resolution Vivid Basemap. This project was initially selected as a recipient of a [GBDX Research Award](http://blog.digitalglobe.com/industry/gbdx-for-sustainability-challenge-mapping-every-school-in-the-world-and-reducing-the-digital-divide-in-education/), and continued to be supported by DigitalGlobe after the life of the award.
@@ -23,8 +23,8 @@ A binary school classifier was trained with existing and cleaned schools dataset
 After the model inference, we downloaded the model predicted schools from our inference pipeline. [DevSeed Data Team](https://medium.com/devseed/announcing-devseed-data-1a3d8102cb23), a group of five expert mappers was able to validate 73,000 predicted school tiles from our machine learning inference within eight working days. We added about 11,000 schools to the map in Colombia and the Caribbean islands, and around 7,000 of them were unmapped schools.
 
 <figure class="align-center">
-	<img src="/assets/graphics/content/results/table-2.png" alt="The predicted school from machine learning" />
-	<figcaption> DevSeed Data Team validated 73,000 predicted school tiles from machine learning. We added about 11,000 schools to the map in Colombia and the Caribbean islands, and around 7,000 of them were unmapped schools. </figcaption>
+	<img src="/assets/graphics/content/results/table-2.png" alt="stats of ml schools" />
+	<figcaption>DevSeed Data Team validated 73,000 predicted school tiles from machine learning. We added about 11,000 schools to the map in Colombia and the Caribbean islands, and around 7,000 of them were unmapped schools</figcaption>
 </figure>
 
 

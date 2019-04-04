@@ -10,7 +10,7 @@ The expert mappers tagged the school geolocations within the original dataset of
 
 
 <figure class="align-center">
-	<img src="/assets/graphics/content/methodology/school_features.png" alt="Confirmed Schools" />
+	<img src="/assets/graphics/content/methodology/school_features.png" alt="Confirmed schools features" />
 	<figcaption> School feature examples that our expert mapper use to clean and validate schools across Colombia.</figcaption>
 </figure>
 
@@ -20,6 +20,6 @@ The expert mappers tagged the school geolocations within the original dataset of
 
 
 <figure class="align-center">
-	<img src="/assets/graphics/content/methodology/not-school-compo.png" alt="Confirmed Schools" />
+	<img src="/assets/graphics/content/methodology/not-school-compo.png" alt="Confirmed not schools" />
 	<figcaption> A few examples of “not-school” covers various look of buildings and not buildings in Colombia</figcaption>
 </figure>

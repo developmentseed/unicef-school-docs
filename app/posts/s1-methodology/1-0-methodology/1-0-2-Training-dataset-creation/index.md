@@ -9,7 +9,7 @@ layout: post.html
 Two categories of datasets, ‘school’ and ‘not-school’, were generated as the training dataset for the machine learning model. We randomly sampled half of the school geolocations from the validated “confirmed schools”, and generated 5,904 tiles as “school” training dataset in the following table. The not-school category is not as trivial. This category can contain forest, grassland or agricultural fields without any buildings, among others. It can also be a building complex or facility that looks very similar to “school” from space, e.g. hospitals, market places, courthouses etc.
 
 <figure class="align-center">
-	<img src="/assets/graphics/content/methodology/schools_table_1.png" alt="Put unmapped schools on the map with machine learning" />
+	<img src="/assets/graphics/content/methodology/schools_table_1.png" alt="data cleaning" />
 	<figcaption> School data cleaning and training dataset creation for machine learning.</figcaption>
 </figure>
 
