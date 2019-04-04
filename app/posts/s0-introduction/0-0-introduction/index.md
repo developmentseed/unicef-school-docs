@@ -14,7 +14,7 @@ An accurate, comprehensive map of schools - where no school is left behind - is 
 Despite their varied structure, many schools have identifiable overhead signatures that might make possible to detect them with modern deep learning techniques applied to high-resolution satellite imagery. This project presents the results of a Convolution Neural Networks school classifier for high-res satellite imagery. This classifier is based on Xception and MobileNetV2 and fine-tuned with a new cleaned school dataset in Colombia.
 
 <figure class="align-center">
-	<img src="unicef-school-docs/app//assets/graphics/content/methodology/school_features.png" alt="school features" />
+	<img src="unicef-school-docs/app/assets/graphics/content/methodology/school_features.png" alt="school features" />
 	<figcaption>The school features are visible to deep learning. From top to bottom, we concluded that schools are normally in bigger size, varied shape compared to surrounding residential houses. Schools have boundary, and the buildings are in unified shape and color.Both urban and rural schools will have different facilities attach to the campus e.g. playground, basketball courts and swimming pool.</figcaption>
 </figure>
 
@@ -23,7 +23,7 @@ A binary school classifier was trained with existing and cleaned schools dataset
 After the model inference, we downloaded the model predicted schools from our inference pipeline. [DevSeed Data Team](https://medium.com/devseed/announcing-devseed-data-1a3d8102cb23), a group of five expert mappers was able to validate 73,000 predicted school tiles from our machine learning inference within eight working days. We added about 11,000 schools to the map in Colombia and the Caribbean islands, and around 7,000 of them were unmapped schools.
 
 <figure class="align-center">
-	<img src="/assets/graphics/content/results/table-2.png" alt="stats of ml schools" />
+	<img src="/app/assets/graphics/content/results/table-2.png" alt="stats of ml schools" />
 	<figcaption>DevSeed Data Team validated 73,000 predicted school tiles from machine learning. We added about 11,000 schools to the map in Colombia and the Caribbean islands, and around 7,000 of them were unmapped schools</figcaption>
 </figure>
 
