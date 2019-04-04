@@ -14,7 +14,7 @@ An accurate, comprehensive map of schools - where no school is left behind - is 
 Despite their varied structure, many schools have identifiable overhead signatures that might make possible to detect them with modern deep learning techniques applied to high-resolution satellite imagery. This project presents the results of a Convolution Neural Networks school classifier for high-res satellite imagery. This classifier is based on Xception and MobileNetV2 and fine-tuned with a new cleaned school dataset in Colombia.
 
 <figure class="align-center">
-	<img src="assets/graphics/content/methodology/school_features.png" alt="school features" />
+	<img src="/assets/graphics/content/methodology/school_features.png" alt="school features" />
 	<figcaption>The school features are visible to deep learning</figcaption>
 </figure>
 
@@ -23,13 +23,13 @@ A binary school classifier was trained with existing and cleaned schools dataset
 After the model inference, we downloaded the model predicted schools from our inference pipeline. [DevSeed Data Team](https://medium.com/devseed/announcing-devseed-data-1a3d8102cb23), a group of five expert mappers was able to validate 73,000 predicted school tiles from our machine learning inference within eight working days. We added about 11,000 schools to the map in Colombia and the Caribbean islands, and around 7,000 of them were unmapped schools.
 
 <figure class="align-center">
-	<img src="assets/graphics/content/results/table-2.png" alt="stats of ml schools" />
+	<img src="/assets/graphics/content/results/table-2.png" alt="stats of ml schools" />
 	<figcaption>DevSeed Data Team validated 73,000 predicted school tiles from machine learning. We added about 11,000 schools to the map in Colombia and the Caribbean islands, and around 7,000 of them were unmapped schools</figcaption>
 </figure>
 
 Our study showed that current deep learning and inexpensive cloud computing can assist humans to detect schools at scale in a rapid, rigorous manner. This provides the first object-based detection model for schools. A complete and accurate school facility map can further reduce the digital divide in education and improve children’s access to information, digital goods, and opportunities, and make the best use of limited educational resources.
 
 <figure class="align-center">
-	<img src="assets/graphics/content/results/unicef-final_schools.gif" alt="Put unmapped schools on the map with machine learning" />
+	<img src="/assets/graphics/content/results/unicef-final_schools.gif" alt="Put unmapped schools on the map with machine learning" />
 	<figcaption> Put unmapped schools on the map with machine learning and the expert mappers. The color red are the existing and confirmed schools in Colombia; the yellow colored dots are the unmapped schools we added at the end of the project</figcaption>
 </figure>
