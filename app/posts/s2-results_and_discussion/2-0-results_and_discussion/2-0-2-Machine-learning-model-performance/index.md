@@ -6,12 +6,12 @@ layout: post.html
 A  threshold score of 0.92 is, and the model inference is run on Colombia and the eastern Caribbean islands. 73,717 tiles were predicted as school tiles and passed to the team of expert mappers to validate. It’s almost impossible to search for schools at the national level, however, the machine learning model was able to narrow down the searching space to less than 0.15% of 52 million tiles for our expert mappers to validate. With a validation speed of 10,000 tiles per day, the mappers identified 10,998 school geolocations, where 6,954 of them are unmapped schools (schools that were not part of the initial dataset of 44,665 schools). 60,568 predicted school tiles were tagged as “unrecognized” by our expert mappers, which turned into a heatmap (see the following figure). These tiles  don’t have [clear school features](/methodology/school-data-cleaning/). During the machine learning prediction validation, we found that schools in rural areas are hard to verify as schools because a “school” can’t be distinguished from residential houses.
 
 <figure class="align-center">
-	<img src="assets/graphics/content/results/table-2.png" alt="Results" />
+	<img src="/assets/graphics/content/results/table-2.png" alt="Results" />
 	<figcaption> DevSeed Data Team validated 73,000 predicted school tiles from machine learning. We added about 11,000 schools to the map in Colombia and the Caribbean islands, and around 7,000 of them were unmapped schools. </figcaption>
 </figure>
 
 <figure class="align-center">
-	<img src="assets/graphics/content/results/new_schoos.png" alt="New Schools" />
+	<img src="/assets/graphics/content/results/new_schoos.png" alt="New Schools" />
 	<figcaption>A few snapshots of unmapped schools we added to Colombia and East Caribbean islands</figcaption>
 </figure>
 
@@ -20,6 +20,6 @@ The machine learning model generalizability is an active research area ([1](http
 
 
 <figure class="align-center">
-	<img src="assets/graphics/content/results/outputs_schools_2.png" alt="The predicted school from machine learning" />
+	<img src="/assets/graphics/content/results/outputs_schools_2.png" alt="The predicted school from machine learning" />
 	<figcaption> Schools are represented as black dots from A - C in the figure. We had 44,655 schools provided by UNICEF(A.) and among them 10,951 schools  (B.) have been confirmed as schools by their clear school features. We use 70% of schools (10,951) in (B.)  to train the machine learning model, and after the validation of predictions, 10,988 schools were added to the map (C.), around 7000 of them are unmapped schools that we newly added after the ML validation. The school heatmap was created from the machine learning predicted and validated as “unrecognized” by our expert mappers (D). The heatmap is an interactive map that the field agents/validators on the ground can room in and see much more detail of the possible geolocation of the school  within a 152 by 152 m searching space. </figcaption>
 </figure>

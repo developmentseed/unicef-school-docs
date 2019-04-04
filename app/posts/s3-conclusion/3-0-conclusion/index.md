@@ -14,7 +14,7 @@ The second key technological advance that enables this work is a GPU-powered ima
 We were able to train a high-performed school classifier  on current training dataset, with 0.94 AUC and 9% of false positive rate. A large scale model inference across Colombia and the Eastern Caribbean islands was implemented over 52 million tiles with our best-performed trained model. The model inference returned more than 73,000 predicted school tiles that were further validated by our expert mappers. As a result, about 11,000 schools were added to school maps for Colombia and the Caribbean islands, among which around 7,000 of schools are new previously unmapped schools.
 
 <figure class="align-center">
-	<img src="assets/graphics/content/results/unicef-final_schools.gif" alt="Put unmapped schools on the map with ML" />
+	<img src="/assets/graphics/content/results/unicef-final_schools.gif" alt="Put unmapped schools on the map with ML" />
 	<figcaption> Put unmapped schools on the map with machine learning and the expert mappers. The color red are the existing and confirmed schools in Colombia; the yellow colored dots are the unmapped schools we added at the end of the project</figcaption>
 </figure>
 

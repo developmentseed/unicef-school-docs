@@ -8,9 +8,8 @@ A high-quality training dataset is essential for the machine learning models to 
 
 The expert mappers tagged the school geolocations within the original dataset of 44,665 schools with the attributes of “confirmed”, “unrecognized” and “not-school”. **Confirmed schools** are these observed from the high-resolution satellite imagery and have very clear school features, e.g. building size, shape, and facilities. For instance, below are some of the school features that were used as criteria for schools and that can be used to label the tiles as “confirmed” schools.
 
-
 <figure class="align-center">
-	<img src="assets/graphics/content/methodology/school_features.png" alt="Confirmed schools features" />
+	<img src="/assets/graphics/content/methodology/school_features.png" alt="Confirmed schools features" />
 	<figcaption> School feature examples that our expert mapper use to clean and validate schools across Colombia.</figcaption>
 </figure>
 
@@ -18,8 +17,7 @@ The expert mappers tagged the school geolocations within the original dataset of
 
 **The not-schools** refers to locations from the original 44,665 school dataset where the expert mappers could not find any school looking buildings at the provided school geolocations. As an example, some of the schools were mislocated in the middle of the ocean. This can be caused the school geolocation was recorded incorrectly or because the DG Vivid imagery has been updated in particular areas of Colombia after schools were built.  
 
-
 <figure class="align-center">
-	<img src="assets/graphics/content/methodology/not-school-compo.png" alt="Confirmed not schools" />
+	<img src="/assets/graphics/content/methodology/not-school-compo.png" alt="Confirmed not schools" />
 	<figcaption> A few examples of “not-school” covers various look of buildings and not buildings in Colombia</figcaption>
 </figure>

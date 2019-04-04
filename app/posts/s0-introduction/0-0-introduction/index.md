@@ -27,8 +27,6 @@ After the model inference, we downloaded the model predicted schools from our in
 	<figcaption>DevSeed Data Team validated 73,000 predicted school tiles from machine learning. We added about 11,000 schools to the map in Colombia and the Caribbean islands, and around 7,000 of them were unmapped schools</figcaption>
 </figure>
 
-
-
 Our study showed that current deep learning and inexpensive cloud computing can assist humans to detect schools at scale in a rapid, rigorous manner. This provides the first object-based detection model for schools. A complete and accurate school facility map can further reduce the digital divide in education and improve children’s access to information, digital goods, and opportunities, and make the best use of limited educational resources.
 
 <figure class="align-center">
