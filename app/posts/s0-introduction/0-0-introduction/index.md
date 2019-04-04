@@ -14,7 +14,7 @@ An accurate, comprehensive map of schools - where no school is left behind - is 
 Despite their varied structure, many schools have identifiable overhead signatures that might make possible to detect them with modern deep learning techniques applied to high-resolution satellite imagery. This project presents the results of a Convolution Neural Networks school classifier for high-res satellite imagery. This classifier is based on Xception and MobileNetV2 and fine-tuned with a new cleaned school dataset in Colombia.
 
 <figure class="align-center">
-	<img src="/assets/graphics/content/methodology/school_features.png" alt="school features" />
+	<img src="unicef-school-docs/app//assets/graphics/content/methodology/school_features.png" alt="school features" />
 	<figcaption>The school features are visible to deep learning. From top to bottom, we concluded that schools are normally in bigger size, varied shape compared to surrounding residential houses. Schools have boundary, and the buildings are in unified shape and color.Both urban and rural schools will have different facilities attach to the campus e.g. playground, basketball courts and swimming pool.</figcaption>
 </figure>
 
