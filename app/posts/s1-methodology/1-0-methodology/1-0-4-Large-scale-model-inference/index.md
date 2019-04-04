@@ -7,7 +7,7 @@ layout: post.html
 To run the inference at a country-wide scale on high-resolution imagery, we developed a library called [`chip-n-scale-queue-arranger`](https://github.com/developmentseed/chip-n-scale-queue-arranger), it is open sourced now. It is composed of a configuration code for Amazon Web Services (AWS CloudFormation) as well as small scripts for automating the necessary tasks associated with the satellite imagery and machine learning predictions.
 
 <figure class="align-center">
-<img src="/assets/graphics/content/methodology/diagram-ml-inference.png" alt="ML model inference" />
+<img src="assets/graphics/content/methodology/diagram-ml-inference.png" alt="ML model inference" />
 <figcaption> chip-n-scale-queue-arranger helps you run machine learning models over satellite imagery at scale. It is a collection of AWS CloudFormation templates deployed by kes, lambda functions, and utility scripts for monitoring and managing the project.</figcaption>
 </figure>
 

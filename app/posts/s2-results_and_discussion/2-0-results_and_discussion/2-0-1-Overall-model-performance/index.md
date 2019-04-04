@@ -9,7 +9,7 @@ The ROC curve indicates the area under the curve is up to 0.94 from the test set
 
 
 <figure class="align-center">
-	<img src="/assets/graphics/content/results/ROC_Curve_all.png" alt="School validation maps" />
+	<img src="assets/graphics/content/results/ROC_Curve_all.png" alt="School validation maps" />
 	<figcaption>The ROC curve and false positive rate for the school classifier in Colombia. The ROC curve indicates the area under the curve is up to 0.94 from the test set with the given threshed of 0.44</figcaption>
 </figure>
 

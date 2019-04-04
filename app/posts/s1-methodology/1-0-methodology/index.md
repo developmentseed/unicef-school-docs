@@ -7,7 +7,7 @@ layout: post.html
 Our workflow of school detection with DG Vivid imagery and machine learning can be simplified as a diagram as follows. The diagram of our school detection system with high-resolution satellite imagery and machine learning. The Core Machine Learning Model and model inference sit at the center of the diagram. To its left is the pipeline for cleaning, validating and generating the training dataset, and to its right is the machine learning prediction and validation.
 
 <figure class="align-center">
-	<img src="/assets/graphics/content/methodology/UNICEF_Schools_diagram.png" alt="machine learning workflow diagram" />
+	<img src="assets/graphics/content/methodology/UNICEF_Schools_diagram.png" alt="machine learning workflow diagram" />
 	<figcaption> Our AI-assisted workflow for schools detection</figcaption>
 </figure>
 
