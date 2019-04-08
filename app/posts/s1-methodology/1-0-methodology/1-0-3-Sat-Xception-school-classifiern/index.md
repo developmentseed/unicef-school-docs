@@ -45,7 +45,7 @@ We organize the training dataset in such a order:
 To train a school classifier, or any other image classification, you only need to install the `Sat_Xception` and run `train` with the selected models. For instance:
 
 ```{bash}
-sat_xception train -model=xception -train=train -valid=test
+sat_xception train -model=xception -train=train -valid=valid
 ```
 
 #### School classifier and model performance

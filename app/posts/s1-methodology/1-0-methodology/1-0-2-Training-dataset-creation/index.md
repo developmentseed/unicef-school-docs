@@ -15,7 +15,7 @@ Two categories of datasets, ‘school’ and ‘not-school’, were generated as
 
 To enrich the “not-school” category, and allow our machine learning algorithm to detect real schools more accurately, we queried available hospital, farmlands, parks, courthouses and marketplaces from OpenStreetMap and added them to the “not-schools” category. We ended up with  9,092 ‘not-school’ tiles, see the above table. Through the machine learning model training iterations, we learned that the model was over-confident in certain areas, and therefore we adjusted the training dataset accordingly. For instance, we randomly included more schools as well as purposely added more regular building tiles that are not schools. See the detailed table for the training dataset for the different sessions.
 
-**Above image tiles creation training was done using [Geokit](https://github.com/developmentseed/geokit) and a customized tile downloading python script we created. However it can be done directly using [Label Maker](https://github.com/developmentseed/label-maker) too**
+**Above image tiles creation training was done using [Geokit](https://github.com/developmentseed/geokit) and a customized tile downloading python script we created. However it can be done directly using [Label Maker](https://github.com/developmentseed/label-maker).**
 
 #### Training dataset split
 
