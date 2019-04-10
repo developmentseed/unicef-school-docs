@@ -19,7 +19,7 @@ To quickly train the school classifier, we create a deep learning python package
 Xception is one of current state-of-the-art CNN architectures and pre-trained models on top of [ImageNet](http://www.image-net.org/).  It’s a high performing and efficient network compared to other [pre-trained networks]( http://keras.io/applications/). [MobileNetV2](https://arxiv.org/abs/1801.04381) on the other hand, is a model that is slightly less accurate compared to Xception. However, it's a very light-weight, fast, and easy to tune when limited resources available (appropriate for scenarios with resource vs. accuracy tradeoff). Both Xception and MobileNetV2 have fewer hyper-parameter available to tune compared to other pre-trained models, e.g. VGG and Inception, but both are high-performed models.
 
 
-#### Training a school classifier with Sat_Xception
+#### Training a school classifier with `sat-xception`
 
 To install `sat-xception` , transfer-learn and fine tune an image classification model, you need to:
 
@@ -32,7 +32,6 @@ To install `sat-xception` , transfer-learn and fine tune an image classification
 We organize the training dataset in such a order:
 
 ```
-
 └── main_model/
     ├── train/
            ├── not-school
