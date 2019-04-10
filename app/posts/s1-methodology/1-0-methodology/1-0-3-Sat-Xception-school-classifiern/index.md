@@ -4,7 +4,10 @@ date: 2018-10-01
 layout: post.html
 ---
 
-#### Sat_Xception
+#### Selecting a machine learning framework
+We did initial testing on two promising ML frameworks: Sat-Xception and MobileNetV2. Our preliminary testing showed slightly better results from Sat-Xception, so we selected Sat-Xception for the remainder of the project.
+
+#### Sat-Xception
 
 To quickly train the school classifier, we create a deep learning python package called `Sat-Xception`. It is a deep learning package that utilizes pre-trained models from [ImageNet](https://en.wikipedia.org/wiki/ImageNet). It is currently private but will soon be open sourced. **It currently private and we will make it open sourced soon**. The package is designed to quickly install, transfer-learn and fine-tune image classifiers with the built-in pre-trained models, which can be used to train other classifiers rather than the school classifier. [Xception](https://arxiv.org/abs/1610.02357) and [MobileNetV2](http://keras.io/applications/) were two pre-trained models built-in in the package. They were written by [Keras](http://keras.io/), a high-level python package that can allow users to quickly reconstruct neural networks Google's [Tensorflow](https://www.tensorflow.org) was used as backend.  
 
@@ -50,7 +53,7 @@ sat_xception train -model=xception -train=train -valid=valid
 
 #### School classifier and model performance
 
-We broke the training sessions into two sessions. The first session was designed to test the feasibility of using Sat-Xception to train a well-performed school classifier in Colombia. The model was over-confident in rural Colombia in the first session, leading into  too many false predictions in the area. To overcome the issue, the expert mapper team created a new training dataset that was slightly different from the training dataset in the first session. In the second training session, 2,048 ‘not-school’ buildings were added. In addition, for the “school” category, we only kept rural schools that have very clear school features. We also randomly selected another 2500 confirmed school tiles to add to the category.  
+We broke the training sessions into two sessions. The first session was designed to test the feasibility of using Sat-Xception to train a well-performed school classifier in Colombia. The model was over-confident in rural Colombia in the first session, leading to too many false predictions in the area. To overcome the issue, the expert mapper team created a new training dataset that was slightly different from the training dataset in the first session. In the second training session, 2,048 ‘not-school’ buildings were added. In addition, for the “school” category, we only kept rural schools that have very clear school features. We also randomly selected another 2,500 confirmed school tiles to add to the category.  
 
 We trained about 200 model iterations on two separate [AWS EC2](https://aws.amazon.com/ec2)  [P3.2xlarge](https://aws.amazon.com/ec2/instance-types/p3/). They are AWS’s deep learning AMI machines that have deep learning virtual environment setup, e.g. python3 with Tensorflow GPU version pre-installed in our case, and ready-to-use.  We found the best-performing model from MobileNetV2 with a validation accuracy of 0.88. However, Xception reached a validation accuracy of 0.89, and therefore, we picked the model trained with Xception. We packaged the best-trained Xception model with Tensorflow Serving . [Tensorflow Serving](https://www.tensorflow.org/tfx/guide/serving) helps to package the Keras and Tensorflow model as a [a Docker image](https://docs.docker.com/v17.09/engine/userguide/storagedriver/imagesandcontainers/). The image can serve as an endpoint for large spatial scale model inference, which allows us to run model inference on tens of millions of image tiles per hour without manually watching the inference.
 
