@@ -11,10 +11,12 @@ An accurate, comprehensive map of schools - where no school is left behind - is 
 
 **[UNICEF](https://www.unicef.org/) and [Development Seed](http://devseed.com/doc-seed) are working to leverage machine learning, high-resolution imagery, and inexpensive cloud computing to create a comprehensive map of school at the national scale.** This report offers findings from activities conducted between October 2018 and March 2019 to map schools in Colombia and the Eastern Caribbean using a combination of powerful deep learning techniques and trained human mappers. This research involved the creation or improvement of new datasets, models, and software, including:
 - Clean dataset of schools in Columbia and Eastern Caribbean
-- Software to generate chipsets for overhead imagery
+- Softwares ([Geokit](https://github.com/developmentseed/geokit#features-to-tiles) or [label-maker](https://github.com/developmentseed/label-maker)) to generate chipsets for overhead imagery
 - Schools chipset optimized for school detection
-- Trained model for school detection in Latin America
-- Software to manage extremely applying the model over extremely large areas
+- [Sat-Xception](http://devseed.com/unicef-school-docs/methodology/sat-xception-and-the-school-classifier/) - a deep learning image classification python package
+- [Trained model](https://cloud.docker.com/u/geoyi/repository/docker/geoyi/2nd_sat_xception_tf-serving_gpu) for school detection in Latin America
+- [Software](https://github.com/developmentseed/chip-n-scale-queue-arranger) to manage applying the model over extremely large areas.
+
 This report provides additional details on these assets including links for download and documentation.
 
 ## Detecting Schools in Overhead imagery
