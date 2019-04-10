@@ -9,7 +9,7 @@ We did initial testing on two promising ML frameworks: Sat-Xception and MobileNe
 
 #### Sat-Xception
 
-To quickly train the school classifier, we create a deep learning python package called `Sat-Xception`. It is a deep learning package that utilizes pre-trained models from [ImageNet](https://en.wikipedia.org/wiki/ImageNet). It is currently private but will soon be open sourced. **It currently private and we will make it open sourced soon**. The package is designed to quickly install, transfer-learn and fine-tune image classifiers with the built-in pre-trained models, which can be used to train other classifiers rather than the school classifier. [Xception](https://arxiv.org/abs/1610.02357) and [MobileNetV2](http://keras.io/applications/) were two pre-trained models built-in in the package. They were written by [Keras](http://keras.io/), a high-level python package that can allow users to quickly reconstruct neural networks Google's [Tensorflow](https://www.tensorflow.org) was used as backend.  
+To quickly train the school classifier, we create a deep learning python package called `Sat-Xception`. It is a deep learning package that utilizes pre-trained models from [ImageNet](https://en.wikipedia.org/wiki/ImageNet). **It currently private and we will make it open sourced soon**. [Xception](https://arxiv.org/abs/1610.02357) and [MobileNetV2](http://keras.io/applications/) were two pre-trained models built-in in the package. The package is designed to quickly install, transfer-learn and fine-tune image classifiers with the built-in pre-trained models, which can be used to train other classifiers rather than just school classifier in this case. They were written by [Keras](http://keras.io/), a high-level python package that can allow users to quickly reconstruct neural networks Google's [Tensorflow](https://www.tensorflow.org) was used as backend.  
 
 <figure class="align-center">
 <img src="/assets/graphics/content/methodology/DCNNs.jpeg" alt="Put unmapped schools on the map with machine learning" />
@@ -48,7 +48,9 @@ We organize the training dataset in such a order:
 To train a school classifier, or any other image classification, you only need to install the `Sat_Xception` and run `train` with the selected models. For instance:
 
 ```{bash}
-sat_xception train -model=xception -train=train -valid=valid
+# to train a school classifier with MobileNetV2 you can run
+
+sat_xception train -model=mobilenetv2 -train=train -valid=valid
 ```
 
 #### School classifier and model performance

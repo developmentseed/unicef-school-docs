@@ -13,7 +13,7 @@ An accurate, comprehensive map of schools - where no school is left behind - is 
 - Clean dataset of schools in Columbia and Eastern Caribbean
 - Softwares ([Geokit](https://github.com/developmentseed/geokit#features-to-tiles) or [label-maker](https://github.com/developmentseed/label-maker)) to generate chipsets for overhead imagery
 - Schools chipset optimized for school detection
-- [Sat-Xception](http://devseed.com/unicef-school-docs/methodology/sat-xception-and-the-school-classifier/) - a deep learning image classification python package
+- [Sat-Xception](http://devseed.com/unicef-school-docs/methodology/sat-xception-and-the-school-classifier/) - a python package to quickly run deep learning image classification algorithms.
 - [Trained model](https://cloud.docker.com/u/geoyi/repository/docker/geoyi/2nd_sat_xception_tf-serving_gpu) for school detection in Latin America
 - [Software](https://github.com/developmentseed/chip-n-scale-queue-arranger) to manage applying the model over extremely large areas.
 
