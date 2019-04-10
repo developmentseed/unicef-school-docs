@@ -4,7 +4,9 @@ date: 2019-03-12
 layout: post.html
 ---
 
-To run the inference at a country-wide scale on high-resolution imagery, we developed a library called [`chip-n-scale-queue-arranger`](https://github.com/developmentseed/chip-n-scale-queue-arranger), it is open sourced now. It is composed of a configuration code for Amazon Web Services (AWS CloudFormation) as well as small scripts for automating the necessary tasks associated with the satellite imagery and machine learning predictions.
+We applied our model to 52 million zoom 18 tiles of DigitalGlobe Vivid Basemap, representing all of Colombia and eleven Eastern Caribbean nations: Anguilla, Antigua, Barbuda, British Virgin islands, Dominica, Grenada, The Grenadines, Montserrat, St Kitts and Nevis, St Lucia, St Vincent.
+
+To run the inference at a country-wide scale on high-resolution imagery, we developed an open source library called [`chip-n-scale-queue-arranger`](https://github.com/developmentseed/chip-n-scale-queue-arranger). It is composed of a configuration code for Amazon Web Services (AWS CloudFormation) as well as small scripts for automating the necessary tasks associated with the satellite imagery and machine learning predictions.
 
 <figure class="align-center">
 <img src="/assets/graphics/content/methodology/diagram-ml-inference.png" alt="ML model inference" />
