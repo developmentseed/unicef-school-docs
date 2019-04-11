@@ -5,7 +5,7 @@ layout: post.html
 ---
 
 #### Selecting a machine learning framework
-We did initial testing on two promising ML frameworks: Sat-Xception and MobileNetV2. Our preliminary testing showed slightly better results from Sat-Xception, so we selected Sat-Xception for the remainder of the project.
+We did initial testing on two promising ML frameworks: Xception and MobileNetV2, two pre-trained models built in our `Sat-Xception`. Our preliminary testing showed slightly better results from Xception, so we selected Xception for the remainder of the project. However, MobileNetV2 only used a quarter of time per training iteration on exactly the same training set. **For those without access to rich cloud computing resources, you might consider using MobileNetV2 to train the model instead.**
 
 #### Sat-Xception
 
